@@ -11,7 +11,6 @@ Then use cmake to create Makefile with configuration for emcc:
 ```
 cmake -DCMAKE_BUILD_TYPE=Release \
  -DRQ_ENDIANNESS=LittleEndian \
- -DTEST_BIG_ENDIAN=0 \
  -DPROFILING=OFF \
  -DDYNAMIC_LIB=OFF \
  -DCMAKE_C_COMPILER={path_to_emscripten}/emcc \
