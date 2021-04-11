@@ -1,4 +1,0 @@
-[submodule "libRaptorQ"]
-	path = libRaptorQ
-	url = https://github.com/LucaFulchir/libRaptorQ
-	branch = master
